@@ -1,20 +1,22 @@
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=DrPaulValle/Gemelos-Digitales-Leyes-de-crecimiento-exponencial-Valle05211261-)
+
 
 # Gemelos Digitales. Práctica 1: Leyes de crecimiento exponencial [Valle05211261]
 
 ## Autor
-Dr. Paul A. Valle
+Chaparro Zamora Alain Yahir
 
-Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: paul.valle@tectijuana.edu.mx
+Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: l21212147@tectijuana.edu.mx
 
 ## Resumen de la práctica
-En esta práctica se implementarán los métodos de Euler y Heun para la solución de ecuaciones diferenciales ordinarias de primer orden, evaluando su precisión en distintos escenarios. Posteriormente, se calculará la tasa de decrecimiento biológico a partir del tiempo de vida media, permitiendo estimar la dinámica de diversos procesos fisiológicos. Asimismo, se ajustará la ecuación de farmacocinética de primer orden utilizando algoritmos de regresión no lineal, con el objetivo de estimar las tasas de liberación de fármacos por nanohidrogeles. Finalmente, se diseñarán protocolos de quimioterapia basados en modelos matemáticos para ilustrar la concentración del imatinib en el compartimento sanguíneo, considerando su absorción tras la ingesta oral. Esta práctica integra herramientas computacionales y matemáticas clave para el modelizado de fenómenos biológicos, contribuyendo al desarrollo de estrategias terapéuticas personalizadas.
+interacción entre la población de macrófagos activados y la población de bacterias en un sistema biológico. Se implementarán los métodos de Euler y Heun para resolver las ecuaciones diferenciales que describen la evolución temporal de ambas poblaciones, comparando su precisión en distintos escenarios. Además, se evaluará el impacto de parámetros clave, como la tasa de crecimiento bacteriano y la eficiencia de eliminación por parte de los macrófagos, en la estabilidad del sistema. Posteriormente, se ajustarán modelos matemáticos mediante algoritmos de regresión no lineal para estimar parámetros biológicos relevantes. Finalmente, se explorarán estrategias terapéuticas simuladas, como la administración de agentes antibacterianos, para evaluar su efecto en la dinámica del sistema. Esta práctica integra herramientas computacionales y matemáticas fundamentales para el modelado de interacciones biológicas, contribuyendo al diseño de estrategias inmunoterapéuticas más efectivas.
 
 ## Objetivos específicos
-1. Aplicar los métodos de Euler y Heun para la solución de Ecuaciones Diferenciales Ordinarias de primer orden lineales e invariantes en el tiempo.
-2. Calcular las tasas de crecimiento, degradación a partir del tiempo de vida medio biológico.
-3. Ajusta la Ecuación de farmacocinética de primer orden mediante algoritmos de regresión no lineal para la estimación de tasas de liberación de fármaco por nanohidrogeles.
-4. Diseñar protocolos de quimioterapia basados en modelos para ilustrar la dinámica del imatinib en el compartimento sanguíneo cuando se ingiere una dosis de 300 mg/día de este fármaco.
+1.-Implementar y comparar los métodos de Euler y Heun para la solución de ecuaciones diferenciales ordinarias de primer orden en modelos biológicos.
+2.-Analizar la dinámica de interacción entre macrófagos activados y bacterias utilizando el modelo presa-depredador de Lotka-Volterra.
+3.-Explorar la estabilidad del sistema a través del análisis de puntos de equilibrio y la matriz Jacobiana.
+4.-Ajustar datos experimentales mediante algoritmos de regresión no lineal para estimar parámetros del modelo.
+5.-Evaluar la precisión de distintos métodos de solución numérica, incluyendo los métodos de órdenes superiores en MATLAB.
+6.-Visualizar y analizar trayectorias de las soluciones del modelo a lo largo del tiempo, identificando patrones de comportamiento en la relación macrófago-bacteria.
 
 ## Docente
 Dr. Paul A. Valle
