@@ -8,16 +8,15 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: Andres Martin
-    name-particle: Andres
-    family-names: Banuelos Elias
-    email: L21212142@tectijuana.edu.mx
+  - given-names: Alain Yahir
+    name-particle: Alain
+    family-names: Chaparro Zamora
+    email: L21212147@tectijuana.edu.mx
     affiliation: Tecnológico Nacional de Mexico
 identifiers:
   - type: url
     value: >-
-      https://github.com/IamJrbe/GemelosDigitales-Practica2-Lotka-Volterra-21212142_-Banuelos-
-    description: Practica 2_Lotka-Volterra
+      https://github.com/ChaparroAlain/Gemelos-Digitales-Practica-2-Lotka-Volterra-Chaparro21212147
 abstract: |-
   Tecnologico Nacional de México 
     Instituto Tecnologico de Tijuana
@@ -26,8 +25,8 @@ abstract: |-
     Práctica 2- Lotka-Volterra
 keywords:
   - Lotka-Volterra
-  - HIV
-  - CD4+
-  - Equilibrium
-  - Analysis
+  - Macrofago
+  - Bacteria
+  - Poblacion
+  - Equilibrio
 license: BSD-2-Clause
